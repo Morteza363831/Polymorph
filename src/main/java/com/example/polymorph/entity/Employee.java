@@ -8,7 +8,7 @@ import lombok.experimental.SuperBuilder;
 
 @Entity
 @Data
-@DiscriminatorValue("1")
+//@DiscriminatorValue("1")
 public class Employee extends Person{
     private String company;
 
